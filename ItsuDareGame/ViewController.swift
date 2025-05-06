@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        //ラベルのコーナーを丸くする
         itsuLabel.layer.cornerRadius = 10
         dokodeLabel.layer.cornerRadius = 10
         daregaLabel.layer.cornerRadius = 10
